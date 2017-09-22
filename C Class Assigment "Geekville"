@@ -1,0 +1,39 @@
+/* Samah Shoubah
+1/12/2017
+Project: Geekvillle High School 
+*/
+
+/* Documenting:
+Web Programming Language: webProgLang
+Object Oriented Language: objectOriLang
+Total number of students: ttlnumstudents
+*/
+
+#include<stdio.h>
+
+int main()
+{
+	int html, java, cplusplus, c, javaScript, php, python, webProgLang, objectOriLang, ttlnumstudents ;
+	printf("Enter the number of students that know HTML");
+	scanf("%d", &html);
+	printf("Enter the number of students that know Java");
+	scanf("%d", &java);
+	printf("Enter the number of students that know C++");
+	scanf("%d",&cplusplus);
+	printf("Enter the number of students that know C#");
+	scanf("%d", &c);
+	printf("Enter the number of students that know JavaScript");
+	scanf("%d", &javaScript);
+	printf("Enter the number of students that know PhP");
+	scanf("%d", &php);
+	printf("Enter the number of students that know Python");
+	scanf("%d", &python);
+	webProgLang=html+javaScript+php;
+	objectOriLang=java+ cplusplus +c + python;
+	ttlnumstudents= webProgLang+objectOriLang;
+	printf("Total students: %d \n",ttlnumstudents);
+	printf("Total students who know Web Programming Language: %d \n",webProgLang);
+		printf("Total students who know Object Oriented Language: %d \n",objectOriLang);
+	 return 0;
+	
+}
